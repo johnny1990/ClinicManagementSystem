@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic.Web", "Clinic.Web\Clinic.Web.csproj", "{E65A9316-26A8-4768-B4D8-AE30D6E9B414}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clinic.Web", "Clinic.Web\Clinic.Web.csproj", "{E65A9316-26A8-4768-B4D8-AE30D6E9B414}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clinic.Entities", "Clinic.Entities\Clinic.Entities.csproj", "{9753733E-6CB5-458A-AA07-F5B4C149DD2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{E65A9316-26A8-4768-B4D8-AE30D6E9B414}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E65A9316-26A8-4768-B4D8-AE30D6E9B414}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E65A9316-26A8-4768-B4D8-AE30D6E9B414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9753733E-6CB5-458A-AA07-F5B4C149DD2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9753733E-6CB5-458A-AA07-F5B4C149DD2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9753733E-6CB5-458A-AA07-F5B4C149DD2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9753733E-6CB5-458A-AA07-F5B4C149DD2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
