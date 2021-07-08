@@ -1,4 +1,5 @@
 ﻿using Clinic.Web.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace Clinic.Web.Controllers
 {
+    [Authorize(Roles = "Admin")]//only for authentication testing with role
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
